@@ -2,7 +2,7 @@ var image; var img1; var img2;
 var img3;
 var canvas;
 function upload(){
-  var fileinput=document.getElementById("finput");
+  var fileinput=document.getElementById("imagefile");
   image=new SimpleImage(fileinput);
   canvas=document.getElementById("can");
   image.drawTo(canvas);
