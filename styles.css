@@ -1,0 +1,63 @@
+body
+{
+    font-size: medium;
+    color: red;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+
+}
+li {
+  float: left;
+
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.image1 {
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 20%;
+  height: 50%;
+}
+.image2
+{
+    width:70%;
+}
+h3
+{
+    color: black;
+}
+ .a,tr {
+  color:purple;
+  width: 80%;
+  border: 1px solid black;
+  margin-left:100px;
+  text-align:center;
+  font-size:20px;
+  border-spacing: 0 1em;
+
+}
+th
+{
+    color:orange;
+}
+div
+{
+    color:brown;
+    font-size:medium;
+}
+p{
+    text-align:center;
+    color:black;
+}
