@@ -6,7 +6,34 @@
         <link href="styles.css" rel="stylesheet">
         <title>My Webpage</title>
     </head>
-    <body style="margin-left:20px;">
+    <body>
+        <button id="red">R</button>
+        <button id="green">G</button>
+        <button id="blue">B</button>
+        <button id="normal">Normal</button>
+        <script>
+
+            document.querySelector('#red').onclick = function()
+            {
+                alert('do you want change your colock to red');
+                document.querySelector('body').style.backgroundColor = 'red';
+            }
+            document.querySelector('#green').onclick = function()
+            {
+                alert('do you want change your colock to green');
+                document.querySelector('body').style.backgroundColor = 'green';
+            }
+            document.querySelector('#blue').onclick = function()
+            {
+                alert('do you want change your colock to blue');
+                document.querySelector('body').style.backgroundColor = 'blue';
+            }
+            document.querySelector('#normal').onclick = function()
+            {
+                alert('do you want change your colock to normal');
+                document.querySelector('body').style.backgroundColor = 'white';
+            }
+            </script>
         <ul style="background-color:#A9FF33; color:blue">
             <li>
                  <a href = "index.html">HOMEPAGE</a><br>
@@ -29,7 +56,7 @@
             <h3>Ex: online games, Netflix, Amazon Prime, and cloud ide's, and many more</h3>
         </ol>
         <h2 style="text-align:center"><br>CLIENT SERVER MODEL</h3>
-        <img class ="image2"src="client_server_model.png" alt = "client_server_model"><br>
+        <img class ="image2"src="pics/client_server_model.png" alt = "client_server_model"><br>
         <h3> 1)SINGLE SERVER, ONE OR MORE THAN ONE CLIENTS<br></h3>
         <h3>2)SERVER PROVIDES SERVICE(REQUEST/RESPONSE) FOR CLIENTS<br></h3>
         <h3>3)SERVER MANAGES RESOURCES</h3>
@@ -39,12 +66,11 @@
         <h3>1)LAN is a wired communication system used to transfer data within short range of distance<br>2)may be around the building
         <br>Rj45 plug in our laptop/ computer is used for this protocol</h3>
         <h3 style="text-align:center;color:darkblue"> WIDE AREA NETWORK (WAN)</h3>
-        <img class ="image3"src="wan.PNG" alt = "wide area network"><br>
+        <img class ="image3"src="pics/wan.PNG" alt = "wide area network"><br>
         <h3>same as LAN but these are interconnected LAN's to increase the range of communication .
         <br> different LAN's are interconnected using switch'es. <br>
               i.e. router in your home is connected to different other routers and other devices globally to share information</h3>
-        <h3>example: internet</h3><br>
-        <img class = "image4" src = "wan1.PNG" alt= "image">
+        <h3>example: internet</h3>
         <h3 style="text-align:center;color:darkblue"> MANET (mobile adhoc network)</h3>
         <h3>From the name itself we could say that MANET changes its communication range from one place to other.</h3>
         <h3>Access points will be changing lets assume we're travelling with a mobile phone with us. Now its obvious that we get internet even if we're moving
@@ -53,6 +79,7 @@
         <br>Ethernet switch sends message to right input or output port.
         <br>HUB is used prior to SWITCH but it sends every request/response to al the ports
         <br>BRIDGE is a device that connects both SWITCHES & HUBS . BRIDGE speaks both LAN protocols</h3>
-        
+        <img class = "image4" src = "pics/wan1.PNG" alt= "image">
+
     </body>
 </html>
