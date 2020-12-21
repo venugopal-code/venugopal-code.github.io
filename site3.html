@@ -3,24 +3,98 @@
 <html lang="en">
     <head>
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-        <link href="styles.css" rel="stylesheet">
+        <link href="styles2.css" rel="stylesheet">
         <title>My Webpage</title>
     </head>
     <body>
-           <ul>
+        <button id="red">R</button>
+        <button id="green">G</button>
+        <button id="blue">B</button>
+        <button id="normal">Normal</button>
+        <script>
+
+            document.querySelector('#red').onclick = function()
+            {
+                alert('do you want change your colock to red');
+                document.querySelector('body').style.backgroundColor = 'red';
+            }
+            document.querySelector('#green').onclick = function()
+            {
+                alert('do you want change your colock to green');
+                document.querySelector('body').style.backgroundColor = 'green';
+            }
+            document.querySelector('#blue').onclick = function()
+            {
+                alert('do you want change your colock to blue');
+                document.querySelector('body').style.backgroundColor = 'blue';
+            }
+            document.querySelector('#normal').onclick = function()
+            {
+                alert('do you want change your colock to normal');
+                document.querySelector('body').style.backgroundColor = 'white';
+            }
+            </script>
+       <ul>
             <li>
                  <a href = "index.html">HOMEPAGE</a><br>
             </li>
             <li>
-                <a href = "site1.html"> PAGE1</a>
+                <a href = "site1.html"> NETWORKING</a>
             </li>
             <li>
-                <a href = "site2.html">PAGE2</a>
+                <a href = "site2.html">SCHOOL</a>
             </li>
             <li>
-                <a href = "site3.html">PAGE3</a>
+                <a href = "site3.html"></a>
             </li>
         </ul>
+        <h2 style="text-align:center;">VIT COLLEGE SCHEDULE</h2>
+        <h3 >so finally i got admitted in my dream college VIT VELLORE.
+        <br>i have enrolled ini btech-Mechanical Engineering with specialisation in automotive engineering .
+        Total strenght of my branch was arouun 70 members. But, we had a special progarm in my branch.
+        we will be staying in VIT only for three years and the final Year will be in ARAI PUNE. which is prestigious institution for Automotive
+        Aspirants.</h3>
+        <h3 class="aa">Here i will rollout my academics and college structure for my course in VIT</h3>
+        <ol class="ab">
+            <li>
+                commencement of college will happen around june 1st week
+            </li>
+            <li>
+                within first few days, VIT councellors will atract you by conducting orientation programs and excerises, dance stuff, sports and all different activities
+            </li>
+            <li>
+                then, you will get daily mails regarding eveents that you need to attend and all notices
+            </li>
+            <li>
+                then, you will get a schedule for your classes to attend to them (only for FRESHERS)
+                <br>if you are not a fresher. then feel freee. you have a boon of selecting your own course that you are interesed even if you are from different branch.
+                thanks to vit management team.
+            </li>
+            <li>every day we wake up at 6 am and get ready around 7:30 to go for breakfast</li>
+            <li>then we go to academic blocks seeing the schedule in VITIAN app doveloped by VIT SDC team</li>
+            <li>then we'll have breaks and we can bunk classes even</li>
+            <li>be sure to keep you attendance around 75%</li>
+        </ol>
+        <h3>finally there will be events like GRAVITAS , RIVERA which are money sucking bunch of teams which attracks you to register for different evenrts. </h3>
+        <h2 style ="color:skyblue;text-align:center;">HERE ARE SOME PHOTOGRAPHS OF VIT THAT YOU COULD ENJOY </h2>
+        <div class="row">
+            <div class="column">
+                <img src="pics/maingate.PNG" alt ="school1.png">
+            </div>
+            <div class="column">
+                <img src="pics/POOL.PNG" alt = "school2.png">
+            </div>
+            <div class ="column">
+                <img src="pics/hostels.PNG" alt ="school3.png">
+            </div>
+            <div class ="column">
+                <img src="pics/lake.PNG" alt ="school4.png">
+            </div>
+            <div class="column">
+                <img src="pics/entrance.PNG" alt ="Entrance">
+            </div>
+        </div >
+
 
     </body>
 </html>
