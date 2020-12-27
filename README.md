@@ -21,4 +21,4 @@
 
 ## CIRCUIT EXPALNATION
 
-![IMAGE](https://github.com/venugopal-code/venugopal-code.github.io/blob/master/pics/maingate.PNG)
+![IMAGE](https://github.com/venugopal-code/venugopal-code.github.io/blob/master/pics/circuit.jpeg)
